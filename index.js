@@ -1,17 +1,14 @@
 const chalk = require('chalk');
 const chalkAnimation = require('chalk-animation');
-const gradient = require('gradient-string');
 
+
+const animate = chalkAnimation.rainbow('Chalk-Animate is awesome too!  Check it out!');
 // Spacer //
 console.log('');
 console.log('');
 
 
-//console.log(gradient('cyan', 'pink')('Hello world!'));
-//chalkAnimation.rainbow('Lorem ipsum dolor sit amet');
-
-
-console.log('For ' + 
+console.log('For ' +
             chalk.bold('this ') + 
             chalk.bgYellowBright.redBright('chalk ') + 
             chalk.bgGreenBright.yellowBright('project') + ', I will be using a ' + 
@@ -77,4 +74,5 @@ console.log('When he meets and falls in ' +
 
 // Spacer //
 console.log('');
-console.log('');
+
+const glitch = chalkAnimation.glitch('And that is how the story begins...');
